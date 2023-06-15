@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "native-bubles": ["../src/index"],
+      "native-bubles/*": ["../src/*"]
+    }
+  }
+}
