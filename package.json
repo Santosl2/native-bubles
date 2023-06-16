@@ -1,7 +1,7 @@
 {
-  "name": "native-bubles",
+  "name": "native-bubbles",
   "version": "0.1.0",
-  "description": "My new module",
+  "description": "Floating Bubble like messenger",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -18,8 +18,8 @@
   "keywords": [
     "react-native",
     "expo",
-    "native-bubles",
-    "NativeBubles"
+    "native-bubbles",
+    "NativeBubbles"
   ],
   "repository": "https://github.com/Santosl2/react-native-bubbles",
   "bugs": {
