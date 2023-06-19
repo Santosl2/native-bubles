@@ -40,6 +40,6 @@ allprojects {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-	implementation 'com.github.abdelrahmana:bubble-Android-:master-fc37ea3370-1'
+	implementation 'com.github.txusballesteros:bubbles-for-android:develop-SNAPSHOT'
 }
   
