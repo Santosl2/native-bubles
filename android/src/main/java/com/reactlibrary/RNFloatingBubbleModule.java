@@ -31,7 +31,6 @@ public class RNFloatingBubbleModule extends ReactContextBaseJavaModule {
   public RNFloatingBubbleModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
-
   }
 
   @ReactMethod
@@ -63,7 +62,7 @@ public class RNFloatingBubbleModule extends ReactContextBaseJavaModule {
       this.removeBubble();
       promise.resolve("");
     } catch (Exception e) {
-      promise.reject("");
+      promise.reject(e);
     }
   }  
   
@@ -80,7 +79,7 @@ public class RNFloatingBubbleModule extends ReactContextBaseJavaModule {
     try {
       promise.resolve(hasPermission());
     } catch (Exception e) {
-      promise.reject("");
+      promise.reject(e);
     }
   }  
   
@@ -90,7 +89,7 @@ public class RNFloatingBubbleModule extends ReactContextBaseJavaModule {
       this.initializeBubblesManager();
       promise.resolve("");
     } catch (Exception e) {
-      promise.reject("");
+      promise.reject(e);
     }
   }  
 
