@@ -40,6 +40,6 @@ allprojects {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.github.txusballesteros:bubbles-for-android:1.2.1'
+	implementation 'com.github.Santosl2:bubble-Android-:b749b1fb91'
 }
   
